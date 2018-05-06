@@ -16,7 +16,7 @@ public class ArrayTest {
         System.out.println("Average value: " + average);
         Arrays.sort(arrayDouble);
         System.out.println("Median value: " + arrayDouble[arrayDouble.length/2]);
-        for (int i = 8; i <= arrayDouble.length; i = i + 9) {
+        for (int i = 8; i <= arrayDouble.length; i += 9) {
             System.out.println("The 9th value: " + arrayDouble[i]);
         }
     }
