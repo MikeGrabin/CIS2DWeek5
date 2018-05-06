@@ -12,8 +12,8 @@ public class ArrayTest {
         for(double randomNum: arrayDouble) {
             doubleValue += randomNum;
         }
-        double average = doubleValue/arrayDouble.length;
-        System.out.println("Average value: " + average);
+        double averageValue = doubleValue/arrayDouble.length;
+        System.out.println("Average value: " + averageValue);
         Arrays.sort(arrayDouble);
         System.out.println("Median value: " + arrayDouble[arrayDouble.length/2]);
         for (int i = 8; i <= arrayDouble.length; i += 9) {
